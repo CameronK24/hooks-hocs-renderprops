@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import themeToggle from '../HOCs/themeToggle';
 
 class ThemeChanger extends Component {
     render(){
@@ -12,4 +13,4 @@ class ThemeChanger extends Component {
     }
 }
 
-export default ThemeChanger;
+export default themeToggle(ThemeChanger);
